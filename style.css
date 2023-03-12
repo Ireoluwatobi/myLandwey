@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  top: 0;
+}
+body {
+  /* height: 100vh; */
+  background-color: lightgray;
+}
+main {
+  margin: auto;
+  width: 85%;
+  height: 100%;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+header {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  background-color: #fff;
+}
+.header-img {
+  margin-left: 50px;
+}
+.header-img img {
+  width: 200px;
+}
+.header-text {
+  /* border: 1px solid blue; */
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+  align-items: center;
+}
+.header-text p {
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.header-text p:hover {
+  color: rgb(243, 140, 50);
+}
+.about {
+  padding: 10px;
+  position: relative;
+}
+.about button {
+  border: none;
+  background-color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.about button:hover {
+  color: rgb(243, 140, 50);
+}
+.about:hover .inner {
+  display: block;
+}
+.inner {
+  background-color: lightgray;
+  display: none;
+  position: absolute;
+  top: 40px;
+  width: 200px;
+  padding: 10px;
+  /* transform: translate(-12px, -12px);
+box-shadow: rgba(0, 0, 0, 0.5); */
+}
+.inner p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.login {
+  border: none;
+  background-color: rgb(243, 140, 50);
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.login:hover {
+  background-color: rgb(204, 113, 32);
+}
+
+.opening-text {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.opening-text h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+.opening-text p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.opening-text button {
+  border: none;
+  background-color: rgb(243, 140, 50);
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.opening-text button:hover {
+  background-color: rgb(204, 113, 32);
+}
+.houses {
+margin-top: 100px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+section{
+/* border: 1px solid red; */
+width: 600px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+background-color: lightgray;
+margin-top: 50px;
+margin-bottom: 50px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.main-img img {
+width: 100%;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+}
+.namer {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.location{
+margin-top: 10px;
+margin-left: 20px;
+background-color: rgb(243, 140, 50);
+width: 250px;
+height: 25px;
+text-align: center;
+color: #fff;
+padding: 5px;
+}
+.location p {
+  font-weight: bold;
+font-family: sans-serif;
+}
+.icons {
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+.small-icon{
+  text-align: center;
+}
+.small-icon img {
+width: 50px;
+}
+.small-icon p {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.slider {
+margin-top: 20px;
+margin-bottom: 10px;
+display: flex;
+overflow-x: scroll;
+overflow-y: hidden;
+}
+.slider::-webkit-scrollbar{
+  display: none;
+}
+.slider-img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.slider-img img {
+  height: 100px;
+  width: 180px;
+  border-radius: 30px;
+}
+.see{
+   width: 150px;
+  height: 50px;
+  padding: 5px;
+  margin:50px auto;
+  border: none;
+  background-color: rgb(243, 140, 50);
+  border-radius: 50px;
+}
+.see button {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243, 140, 50);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  border-radius: 100%;
+}
